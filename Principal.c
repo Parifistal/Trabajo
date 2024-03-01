@@ -35,3 +35,8 @@ if(opcion==3)
        resultado=num1*num2;
        std::cout<<"El producto de "<<num1<<" y "<<num2<<" es igual a: "<<resultado<<std::endl;
 }
+if(opcion==4)
+{
+       system("clear");
+       resultado=num1/num2;
+       std::cout<<"La division de "<<num1<<" y "<<num2<<" es igual a: "<<resultado<<std::endl;
