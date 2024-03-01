@@ -13,3 +13,12 @@ std::cout<<":::::::::::MENU CALCULADORA:::::::::::::"<<std::endl;
 std::cout<<" "<<std::endl;
 std::cout<<"\t 1. Suma"<<std::endl;
 std::cout<<"\t 2. Resta \n\t 3.Producto \n\t 4.División \n\t 5.Modulo"<<std::endl;
+std::cin>>opcion;
+
+if(opcion==1)  
+{
+       system("clear");
+       resultado=num1+num2;
+       std::cout<<"La suma de "<<num1<<" y "<<num2<<" es igual a: "<<resultado<<std::endl;
+}
+std::cout<<"La opción elegida es:"<<opcion<<std::endl;
