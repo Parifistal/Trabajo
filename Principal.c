@@ -22,3 +22,10 @@ if(opcion==1)
        std::cout<<"La suma de "<<num1<<" y "<<num2<<" es igual a: "<<resultado<<std::endl;
 }
 std::cout<<"La opción elegida es:"<<opcion<<std::endl;
+if(opcion==2)
+{
+       system("clear");
+       resultado=num1-num2;
+       std::cout<<"La resta de "<<num1<<" y "<<num2<<" es igual a: "<<resultado<<std::endl;
+}
+
